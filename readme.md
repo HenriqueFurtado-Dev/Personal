@@ -19,5 +19,4 @@ Todos os arquivos possuem comentários e legendas com a marcação que pode ser 
 - Outros projetos e arquivos podem ser consultados no meu GITHUB @HenriqueDev
 
 
-
 By 💜 Henrique Furtado
