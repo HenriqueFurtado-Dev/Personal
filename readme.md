@@ -1,6 +1,13 @@
-* Portfolio Henrique
+# Portfolio Henrique
 
-** Comentários e legendas
+## Tools
+
+- HTML5
+- CSS3
+- JS (ecmascript)
+- GIT / Github
+
+## Comentários e legendas
 
 Todos os arquivos possuem comentários e legendas com a marcação que pode ser vista no arquivo .subtitles
 
@@ -11,11 +18,5 @@ Todos os arquivos possuem comentários e legendas com a marcação que pode ser 
 - O código fonte não será disponibilizado, pois pode ser comprado no Buy me a coffe do autor
 - Outros projetos e arquivos podem ser consultados no meu GITHUB @HenriqueDev
 
-** Tools
-
-- HTML5
-- CSS3
-- JS (ecmascript)
-- GIT / Github
 
 By 💜 Henrique Furtado
