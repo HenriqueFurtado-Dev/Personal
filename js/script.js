@@ -1,7 +1,7 @@
 // Typing anomation
 var typed = new Typed(".typing", {
-    strings:["", "Web Designer", "Web developer", "Graphic Desginer", "Youtuber"],
+    strings:["", "Wordpress", "Html5", "CSS3", "JavaScript", "Bootstrap", "GIT"],
     typeSpeed: 200,
-    BackSpeed: 60,
+    backSpeed: 60,
     loop: true
 })

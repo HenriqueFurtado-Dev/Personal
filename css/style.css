@@ -46,6 +46,10 @@ body.dark {
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -420,7 +424,7 @@ h3.my-profession {
 }
 
 .about .about-content .personal-info .buttons {
-    margin-top: 30px;
+    margin-top: 120px;
 }
 
 .about .about-content .personal-info .buttons .btn {
@@ -563,6 +567,44 @@ h3.my-profession {
     color: var(--text-black-700);
 }
 
+.title-color {
+    color: var(--skin-color);
+}
+
+.title-color-active {
+    color: var(--skin-color);
+    text-shadow: 0 0 20px var(--skin-color);
+}
+
+.enterprises {
+    padding: 50px 0;
+}
+
+.enterprises h2 {
+    color: var(--skin-color);
+}
+
+.enterprises .logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin: auto;
+}
+
+.enterprises .logos img {
+    width: 200px;
+    transition: all 0.3s ease;
+}
+
+.enterprises .logos img:first-child {
+    width: 120px;
+}
+
+.enterprises .logos img:hover {
+    transform: scale(0.9);
+}
+
 /* Services */
 .service .container {
     padding-bottom: 40px;
@@ -649,8 +691,8 @@ h3.my-profession {
 }   
 
 .portfolio .portfolio-item {
-    flex: 0 0 33.33%;
-    max-width: 33.33%;
+    flex: 0 0 50%;
+    max-width: 50%;
     margin-bottom: 30px;
 }
 
@@ -663,6 +705,7 @@ h3.my-profession {
 
 .portfolio .portfolio-item-inner .portfolio-img img {
     width: 100%;
+    object-fit: cover;
     display: block;
 }
 
