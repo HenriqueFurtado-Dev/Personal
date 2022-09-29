@@ -293,6 +293,13 @@ ul {
     margin-right: 15px;
 }
 
+.aside .logo .icon-logo {
+    width: 150px;
+    margin-top: 50px;
+    border-radius: 50%;
+    border: 2px solid var(--skin-color);
+}
+
 
 /* HOME */
 .home {
