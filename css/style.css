@@ -163,6 +163,10 @@ ul {
     box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
 
+.shadow {
+    text-shadow: 0 0 20px var(--skin-color);
+}
+
 /* Aside */
 
 .aside {
@@ -297,6 +301,7 @@ ul {
     width: 150px;
     margin-top: 50px;
     border-radius: 50%;
+    padding: 5px;
     border: 2px solid var(--skin-color);
 }
 
