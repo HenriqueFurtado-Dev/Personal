@@ -617,6 +617,49 @@ h3.my-profession {
     transform: scale(0.9);
 }
 
+/* Certificates */
+.certificate-title {
+    margin-bottom: 60px;
+}
+
+.certificate .container {
+    padding-bottom: 40px;
+}
+.certificate .portfolio-title {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.certificate .certificate-heading {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 40px;
+}
+
+.certificate .certificate-heading h2 {
+    color: var(--text-black-900);
+    font-weight: 500;
+}   
+
+.certificate .certificate-item {
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-bottom: 30px;
+}
+
+.certificate .certificate-item-inner {
+    border: 6px solid var(--bg-black-100);
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.certificate .certificate-item-inner .certificate-img img {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
 /* Services */
 .service .container {
     padding-bottom: 40px;
