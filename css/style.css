@@ -272,7 +272,7 @@ ul {
 }
 
 .aside .nav {
-    margin-top: 50px;
+    margin-top: 150px;
 }
 
 .aside .nav li {
@@ -311,11 +311,13 @@ ul {
     min-height: 100vh;
     display: flex;
     color: var(--text-black-900);
+    overflow: hidden;
 }
 
 .home .home-info {
-    flex: 0 0 60%;
-    max-width: 60%;
+    flex: 0 0 55%;
+    max-width: 55%;
+    padding: 0px 60px;
 
 }
 
@@ -352,7 +354,7 @@ h3.my-profession {
     height: 80px;
     width: 80px;
     right: 20px;
-    bottom: -40px;
+    bottom: -120px;
     border-bottom: 10px solid var(--skin-color);
     border-right: 10px solid var(--skin-color);
 }
@@ -362,24 +364,42 @@ h3.my-profession {
     position: absolute;
     height: 80px;
     width: 80px;
-    left: 20px;
-    top: -40px;
+    left: 40px;
+    top: -120px;
     border-top: 10px solid var(--skin-color);
     border-left: 10px solid var(--skin-color);
+    z-index: 99;
 }
 
 .home .home-img {
     flex: 0 0 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     max-width: 40%;
     position: relative;
     text-align: center;
 }
 
-.home .home-img img {
-    height: 400px;
+.home .home-img .me {
+    height: 380px;
     margin: auto;
-    border-radius: 50px 5px 50px 5px;
+    z-index: 2;
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    border-radius: 80px 40px 80px 40px;
 }
+
+.home .home-img .code {
+    position: absolute;
+    left: 0;
+    border-radius: 8px;
+    left: 80px;
+    z-index: 0;
+}
+
+
 
 /* About */
 .about .about-content {
