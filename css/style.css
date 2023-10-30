@@ -879,6 +879,9 @@ h3.my-profession {
 /* Responsive  */
 
 @media (max-width: 1199px) {
+    body {
+        overflow-x: hidden;
+    }
     .aside {
         left: -270px;
     }
@@ -888,6 +891,13 @@ h3.my-profession {
     .about .about-content .personal-info .info-item p span {
         display: block;
         margin-left: 0;
+    }
+    .enterprises .logos {
+        flex-wrap: wrap;
+    }
+
+    .enterprises .logos img {
+        width: 200px;
     }
 }
 
